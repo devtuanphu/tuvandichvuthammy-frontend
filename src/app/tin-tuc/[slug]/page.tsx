@@ -40,7 +40,7 @@ export default async function NewsDetailPage({ params }: Props) {
     publisher: {
       '@type': 'Organization',
       name: 'Thẩm Mỹ 10 Trần Điền',
-      url: 'https://thammyhanoi.vn',
+      url: 'https://tuvandichvuthammy.com',
     },
     author: { '@type': 'Organization', name: 'Thẩm Mỹ 10 Trần Điền' },
   };
@@ -80,7 +80,7 @@ export default async function NewsDetailPage({ params }: Props) {
                 <p className="text-gray-600 mb-3 font-medium">Chia sẻ bài viết:</p>
                 <div className="flex gap-3">
                   <a
-                    href={`https://www.facebook.com/sharer/sharer.php?u=https://thammyhanoi.vn/tin-tuc/${slug}`}
+                    href={`https://www.facebook.com/sharer/sharer.php?u=https://tuvandichvuthammy.com/tin-tuc/${slug}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
@@ -88,7 +88,7 @@ export default async function NewsDetailPage({ params }: Props) {
                     Facebook
                   </a>
                   <a
-                    href={`https://twitter.com/intent/tweet?url=https://thammyhanoi.vn/tin-tuc/${slug}&text=${article.title}`}
+                    href={`https://twitter.com/intent/tweet?url=https://tuvandichvuthammy.com/tin-tuc/${slug}&text=${article.title}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gray-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-900 transition-colors"

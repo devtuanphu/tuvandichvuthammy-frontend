@@ -63,8 +63,8 @@ export default async function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                    <a href={`mailto:${data?.contactInfo?.email || 'contact@thammyhanoi.vn'}`} className="text-primary hover:text-primary-dark transition-colors">
-                      {data?.contactInfo?.email || 'contact@thammyhanoi.vn'}
+                    <a href={`mailto:${data?.contactInfo?.email || 'contact@tuvandichvuthammy.com'}`} className="text-primary hover:text-primary-dark transition-colors">
+                      {data?.contactInfo?.email || 'contact@tuvandichvuthammy.com'}
                     </a>
                   </div>
                 </div>

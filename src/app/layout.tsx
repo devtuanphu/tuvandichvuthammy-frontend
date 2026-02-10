@@ -44,7 +44,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     },
     telephone: global?.phone || "0901234567",
     email: global?.email,
-    url: "https://thammyhanoi.vn",
+    url: "https://tuvandichvuthammy.com",
     openingHours: ["Mo-Sa 08:00-18:00", "Su 08:00-12:00"],
     geo: {
       "@type": "GeoCoordinates",

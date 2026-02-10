@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getServices, getNews } from '@/lib/strapi';
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://thammyhanoi.vn';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://tuvandichvuthammy.com';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [services, news] = await Promise.all([getServices(), getNews()]);
